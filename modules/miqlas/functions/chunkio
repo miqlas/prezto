@@ -1,0 +1,3 @@
+function chunkio {
+	curl -sT $argv chunk.io
+}
