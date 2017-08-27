@@ -11,3 +11,17 @@ if [[ -s "/boot/home/config/settings/zsh/zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+source "/boot/home/config/settings/zsh/zsh-background-notify/bgnotify.plugin.zsh"
+
+export PATH=/Ports/haikuporter:$PATH
+
+#export RUBY_VER=2.2.0
+#export GEM_PATH=$HOME/config/non-packaged/lib/gem
+#export GEM_HOME="$GEM_PATH/ruby/$RUBY_VER"
+#export PATH=$GEM_HOME/bin/:$PATH
+
+export RUBY_VER=2.2.0
+export GEM_PATH=$HOME/.gem
+export GEM_HOME="$GEM_PATH/ruby/$RUBY_VER"
+export PATH=$GEM_HOME/bin/:$PATH

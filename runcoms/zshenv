@@ -9,3 +9,5 @@
 if [[ ( "$SHLVL" -eq 1 && ! -o LOGIN ) && -s "/boot/home/config/settings/zsh/zprofile" ]]; then
   source "/boot/home/config/settings/zsh/zprofile"
 fi
+
+export ZDOTDIR="/boot/home/config/settings/zsh"
